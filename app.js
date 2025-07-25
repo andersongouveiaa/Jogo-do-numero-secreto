@@ -8,7 +8,7 @@ let numeroSecreto = gerarNumeroAleatorio();
 function exibirTextoNaTela(tag,texto){
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
-    responsiveVoice.speak(texto,'Brazilian Portuguese Female',{rate: 1.0});
+    responsiveVoice.speak(texto,'Brazilian Portuguese Female',{rate: 1.2});
 
 }
 
@@ -66,4 +66,3 @@ function reiniciarJogo(){
     tentativas = 1;
     document.querySelector('#reiniciar').disabled = true;
 }
-
